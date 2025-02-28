@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Deep blue gradient */
+    background: linear-gradient(135deg, #1e3c72, #2a5298); 
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@ body {
     padding: 20px;
 }
 
-/* Header Styles */
+
 header {
     width: 100%;
     background: rgba(0, 0, 0, 0.4);
@@ -46,10 +46,10 @@ nav a {
 }
 
 nav a:hover {
-    color: #00c6ff; /* Soft cyan accent */
+    color: #00c6ff; 
 }
 
-/* Main Container */
+
 .appContainer {
     background: rgba(255, 255, 255, 0.1);
     padding: 50px 30px;
@@ -66,7 +66,7 @@ h1#facts {
     line-height: 1.5;
 }
 
-button#genrate {
+button#generate {
     background: #00c6ff;
     border: none;
     padding: 12px 30px;
@@ -78,22 +78,22 @@ button#genrate {
     transition: transform 0.2s ease, background 0.3s ease;
 }
 
-button#genrate:hover {
+button#generate:hover {
     background: #0072ff;
     transform: scale(1.05);
 }
 
-button#genrate:active {
+button#generate:active {
     transform: scale(0.98);
 }
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
     h1#facts {
         font-size: 1.3rem;
     }
 
-    button#genrate {
+    button#generate {
         font-size: 1rem;
         padding: 10px 20px;
     }

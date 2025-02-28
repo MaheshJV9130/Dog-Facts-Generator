@@ -1,6 +1,6 @@
 let url ="https://dogapi.dog/api/v1/facts";
 const facts = document.getElementById("facts");
-const genrate =document.getElementById("genrate");
+const generate =document.getElementById("generate");
 
 async function getData(){
 
@@ -12,6 +12,6 @@ async function getData(){
     
 }
 
-genrate.addEventListener('click',()=>{
+generate.addEventListener('click',()=>{
     getData()
 });
