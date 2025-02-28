@@ -57,6 +57,7 @@ nav a:hover {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
     text-align: center;
     max-width: 500px;
+    margin: auto;
     width: 100%;
 }
 
@@ -86,8 +87,34 @@ button#generate:hover {
 button#generate:active {
     transform: scale(0.98);
 }
+.appContainer {
+    width: 300px; 
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+#dogImg {
+    display: block;
+    width: 100%; 
+    height: auto; 
+    max-height: 300px; 
+    border-radius: 12px;
+    margin: 20px auto;
+    object-fit: cover; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
 
 
+#dogImg:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+    filter: brightness(1.1) contrast(1.1); 
+    border-radius: 20px; 
+}
 @media (max-width: 600px) {
     h1#facts {
         font-size: 1.3rem;
